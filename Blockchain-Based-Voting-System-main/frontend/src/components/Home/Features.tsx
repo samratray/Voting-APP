@@ -7,56 +7,64 @@ const Features = () => {
     <div className="features-wrapper">
       <div className="title-large">Amazing Features</div>
       <div className="title-small">
-        lorem ipsum dosa is posa and gosa is the best thing i can come up with
+        Building a Blockchain-Based Voting System: Ensuring Secure and
+        Transparent Elections
       </div>
 
       <div className="mobile-wrapper">
         <div>
-          <Feature title="Immutability" icon={<MdLock />} align="right">
+          <Feature title="Immutable" icon={<MdLock />} align="right">
             <p>
-              Immutability means something that can’t be changed or altered.
-              This is one of the top blockchain features that help to ensure
-              that the technology will remain as it is, a permanent, unalterable
-              network.
+              The blockchain-based voting system utilizes the core principles of
+              blockchain technology, such as immutability and transparency. Each
+              vote cast is recorded as a transaction on the blockchain, making
+              it tamper-proof and providing transparency throughout the voting
+              process.
             </p>
           </Feature>
-        </div>
-
-        <div className="mobile-container">
-          <img src="/mobile.png" />
         </div>
 
         <div>
           <Feature title="Enhanced Security" icon={<MdGppGood />} align="left">
             <p>
-              Immutability means something that can’t be changed or altered.
-              This is one of the top blockchain features that help to ensure
-              that the technology will remain as it is, a permanent, unalterable
-              network.
-            </p>
-          </Feature>
-        </div>
-        <div>
-          <Feature title="Decentralized" icon={<MdShare />} align="right">
-            <p>
-              Immutability means something that can’t be changed or altered.
-              This is one of the top blockchain features that help to ensure
-              that the technology will remain as it is, a permanent, unalterable
-              network.
+              The voting system leverages cryptographic algorithms to ensure the
+              security and integrity of the votes. The decentralized nature of
+              the blockchain network prevents unauthorized access and
+              manipulation of the voting data. Additionally, the use of digital
+              signatures further enhances the security by verifying the
+              authenticity of each vote.
             </p>
           </Feature>
         </div>
         <div>
           <Feature
-            title="Distributed Ledger"
+            title="Aadhaar Verification"
             icon={<MdLibraryAddCheck />}
+            align="right"
+          >
+            <p>
+              Before casting a vote, the system incorporates an Aadhaar
+              verification process. Aadhaar, as a unique identification number,
+              helps authenticate the identity of voters. By linking Aadhaar to
+              the voting system, it ensures that only eligible voters can
+              participate and eliminates the possibility of duplicate or
+              fraudulent voting.
+            </p>
+          </Feature>
+        </div>
+        <div>
+          <Feature
+            title="Decentralization and Trust"
+            icon={<MdShare />}
             align="left"
           >
             <p>
-              Immutability means something that can’t be changed or altered.
-              This is one of the top blockchain features that help to ensure
-              that the technology will remain as it is, a permanent, unalterable
-              network.
+              The decentralized nature of the blockchain-based voting system
+              eliminates the need for a central authority, such as a government
+              or election commission, to oversee the voting process. This
+              decentralization fosters trust among voters as they can directly
+              verify and audit the voting results stored on the blockchain,
+              ensuring transparency and minimizing the risk of manipulation.
             </p>
           </Feature>
         </div>
